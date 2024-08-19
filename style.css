@@ -68,3 +68,49 @@ body {
 #resetBtn:hover {
   background-color: hsl(205, 90%, 50%);
 }
+
+@media (max-width: 768px) {
+  #myH1 {
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  #container {
+    padding: 20px;
+    border-radius: 40px;
+  }
+
+  #display {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  #controls button {
+    font-size: 20px;
+    padding: 8px 16px;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #myH1 {
+    font-size: 40px;
+    margin: 15px;
+  }
+
+  #container {
+    padding: 15px;
+    border-radius: 30px;
+  }
+
+  #display {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  #controls button {
+    font-size: 18px;
+    padding: 6px 12px;
+    min-width: 80px;
+  }
+}
